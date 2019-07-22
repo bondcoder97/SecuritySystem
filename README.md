@@ -1,3 +1,5 @@
+<h2>Coursework security access system for organization writed on JavaScript with React.js, Redux, Node.js, Webpack, MySQL and Socket.IO </h2>
+
 <img src="http://www.picshare.ru/uploads/190722/eM2Fmp956A.jpg"/>
 <img src="http://www.picshare.ru/uploads/190722/eoT7P28HMU.jpg"/>
 <img src="http://www.picshare.ru/uploads/190722/WV7449pcoJ.jpg"/>
