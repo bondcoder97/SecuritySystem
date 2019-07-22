@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+  
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+     <link href="./css/main.css" rel="stylesheet">
+   
+
+  
+     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style> 
+       html{
+         height:100%;
+       }
+           body{
+             height:100%;
+             margin:0;
+           }
+           
+          .gridContainer{
+            display: grid;
+            grid-template-columns: 0.75fr 1fr 0.75fr;
+            grid-template-rows: 0.2fr 1fr 0.3fr;
+            grid-template-areas: ". . ."
+                                 ". simul ."
+                                 ". . .";
+      
+            height:100%;
+         
+            
+          }
+
+          .simulForm{
+             grid-area: simul;
+             width: 100%;
+             border-radius: 10px;
+         
+          }
+
+          .simulForm h5{
+            color: white;
+            text-align: center;
+          }
+
+          .simulForm input[type=text]{
+            width: 80%;
+            color: white;
+            margin-left:10%;
+          }
+
+    
+          #updateFinger{
+            display: none;
+          }
+
+          .finger{
+             outline: 2px solid rgb(7, 7, 136);
+          }
+          #finger{
+            margin-left: 20%;
+          }
+
+        
+
+
+
+    </style>
+             
+  </head>
+
+  <body>
+
+       
+    <!-- MAIN PART : END -->
+     
+     <!-- FOOTER -->
+    
+  
+     <!-- FOOTER -->
+     <script  defer src="./js-cookie.js"></script>
+     <script  defer src="./socket.io/socket.io.js"></script>
+     <script  defer src="./ioconnection.js"></script>
+     <script  defer src="./simulation.js">    </script>
+     
+  </body>
+</html>
